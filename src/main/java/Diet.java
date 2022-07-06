@@ -3,7 +3,8 @@ public enum Diet {
     VEGETARIAN(1),
     PESCITARIAN(2);
 
-    private int priority;
+    private final int priority;
+
     Diet(int priority) {
         this.priority = priority;
     }
